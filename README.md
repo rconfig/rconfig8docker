@@ -101,7 +101,7 @@ run the docker image. Please contact rConfig for more information at [info@rconf
     Password:  # Enter your credentials
 ```
  
-3. Edit the `.env` file and update the following values:
+3. Locate the `.env` file in the `data` directory and update the following values:
 
 ```sh
     APP_DEBUG=true/false
