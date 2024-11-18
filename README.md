@@ -132,7 +132,7 @@ run the docker image. Please contact rConfig for more information at [info@rconf
     docker exec -it rconfig-container-name bash
     php artisan migrate
     php artisan key:generate
-    php artisan passport:install
+    php artisan passport:install # Please answer yes to the questions
     php artisan rconfig:sync-tasks
     php artisan rconfig:sync-search 
     php artisan rconfig:clear-all
@@ -185,6 +185,6 @@ Inspiration, code snippets, etc.
 
 - [Laravel](https://www.laravel.com)
 - [vuejs](https://vuejs.org/)
-- [patternfly v4](https://v4-archive.patternfly.org/v4/)
+- [patternfly v5](https://www.patternfly.org/)
 
 See composer.json and package.json for a full list of dependencies, and their licenses.
