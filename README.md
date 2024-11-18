@@ -96,7 +96,9 @@ run the docker image. Please contact rConfig for more information at [info@rconf
 2. Login to the rConfig private registry. You will need to have a valid subscription to rConfig Professional to access the registry. Credentials are provided by rConfig.
 
 ```sh
- docker login reg.rconfig.com:8443 -u="robot$rconfig+name"  # Enter your credentials
+    docker login reg.rconfig.com:8443
+    Username: robot$rconfig+equans
+    Password:  # Enter your credentials
 ```
  
 3. Edit the `.env` file and update the following values:
