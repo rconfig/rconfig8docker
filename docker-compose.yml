@@ -7,8 +7,8 @@ services:
     depends_on:
       - db
     volumes:
-      - ./data/.env:/var/www/html/rconfig7/current/.env  # Mount the .env file from local disk to container
-      - ./data/storage:/var/www/html/rconfig7/current/storage  # Mount app storage directory to host directory
+      - ./data/.env:/var/www/html/rconfig8/current/.env  # Mount the .env file from local disk to container
+      - ./data/storage:/var/www/html/rconfig8/current/storage  # Mount app storage directory to host directory
 
   db:
     image: mariadb:latest
