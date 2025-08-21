@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   app:
-    image: reg.rconfig.com:8443/rconfig/rconfigv7docker
+    image: reg.rconfig.com:8443/rconfig/rconfigv8docker
     ports:
       - "8080:80"
     depends_on:
