@@ -104,7 +104,7 @@ run the docker image. Please contact rConfig for more information at [info@rconf
 ```sh
     docker login reg.rconfig.com:8443
     Username: robot$rconfig+equans
-    Password:  # Enter your credentials
+    Password:  #Enteryourcredentials
 ```
  
 3. Locate the `.env` file in the `data` directory and update the following values:
